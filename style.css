@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+p{
+    font-size: 40px;
+    align-items: center;
+    color: #452e45;
+    text-align: center;
+
+}
+.main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blanchedalmond;
+    border-radius: 25px;
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    border: 2px double black;
+}
+.main .card .photo{
+    width:150px;
+    align-items: center;
+    border:2px solid black;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.photo{
+    align-items: center;
+}
+.main .data{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color: blue;
+}
+.data .name{
+    font-size: 20px;
+    font-weight: 700;
+}
+.data .domain{
+    font-size: 30px;
+}
+.main .icon{
+    margin-top: 15px;
+    display: flex;
+}
+.icon .icons{
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+    color:rgb(9, 16, 27);
+    width:20px;
+    height:20px;
+    margin: 0 8px;
+    background-color: rgb(158, 233, 233);
+    
+}
+.main .buttons{
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+}
+.buttons .button{
+    background-color: rgb(235, 167, 104);
+    margin-top: 60px;
+    margin:0 10px;
+    color: black;
+    font-weight: bold;
+    border-radius: 23%;
+    padding: 5px;
+    cursor:pointer;
+}
+.buttons .button:hover{
+    background-color:red;
+}
